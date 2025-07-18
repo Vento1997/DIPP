@@ -205,6 +205,12 @@ def model_training():
             if epoch < args.pretrain_epochs:
                 args.use_planning = False
             else:
+                # 当预训练刚刚结束，进入正式训练时
+                if epoch == args.pretrain_epochs:
+                    # 在此处重置学习率
+                    logging.info(f"Pre-training finished. Resetting learning rate to {args.learning_rate}")
+                    for param_group in optimizer.param_groups:
+                        param_group['lr'] = args.learning_rate                
                 args.use_planning = True         
 
         train_loss, train_metrics = train_epoch(train_loader, predictor, planner, optimizer, args.use_planning)
