@@ -1,352 +1,0 @@
-Retrieving notices: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
-Channels:
- - defaults
-Platform: linux-64
-Collecting package metadata (repodata.json): / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
-Solving environment: / - \ | done
-
-## Package Plan ##
-
-  environment location: /home/vento/miniconda3/envs/DIPP
-
-  added / updated specs:
-    - numpy
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    _tflow_select-2.3.0        |              mkl           2 KB
-    h5py-2.10.0                |   py38hd6299e0_1         948 KB
-    hdf5-1.10.6                |       h3ffc7dd_1         3.6 MB
-    numpy-1.23.5               |   py38h14f4228_0          10 KB
-    numpy-base-1.23.5          |   py38h31eccc5_0         6.7 MB
-    opt_einsum-3.3.0           |     pyhd3eb1b0_1          57 KB
-    python-flatbuffers-24.3.25 |   py38h06a4308_0          55 KB
-    tensorflow-2.4.1           |mkl_py38hb2083e0_0           4 KB
-    tensorflow-base-2.4.1      |mkl_py38h43e0292_0        89.0 MB
-    ------------------------------------------------------------
-                                           Total:       100.4 MB
-
-The following NEW packages will be INSTALLED:
-
-  _tflow_select      pkgs/main/linux-64::_tflow_select-2.3.0-mkl 
-  hdf5               pkgs/main/linux-64::hdf5-1.10.6-h3ffc7dd_1 
-  numpy-base         pkgs/main/linux-64::numpy-base-1.23.5-py38h31eccc5_0 
-  opt_einsum         pkgs/main/noarch::opt_einsum-3.3.0-pyhd3eb1b0_1 
-  python-flatbuffers pkgs/main/linux-64::python-flatbuffers-24.3.25-py38h06a4308_0 
-  tensorflow-base    pkgs/main/linux-64::tensorflow-base-2.4.1-mkl_py38h43e0292_0 
-
-The following packages will be UPDATED:
-
-  numpy                      pypi/pypi::numpy-1.19.5-pypi_0 --> pkgs/main/linux-64::numpy-1.23.5-py38h14f4228_0 
-
-The following packages will be SUPERSEDED by a higher-priority channel:
-
-  h5py                         pypi/pypi::h5py-3.1.0-pypi_0 --> pkgs/main/linux-64::h5py-2.10.0-py38hd6299e0_1 
-  tensorflow             pypi/pypi::tensorflow-2.6.0-pypi_0 --> pkgs/main/linux-64::tensorflow-2.4.1-mkl_py38hb2083e0_0 
-
-
-Proceed ([y]/n)? 
-
-Downloading and Extracting Packages: ...working...tensorflow-base-2.4. | 89.0 MB   |            |   0% 
-numpy-base-1.23.5    | 6.7 MB    |            |   0% [A
-
-hdf5-1.10.6          | 3.6 MB    |            |   0% [A[A
-
-
-h5py-2.10.0          | 948 KB    |            |   0% [A[A[A
-
-
-
-opt_einsum-3.3.0     | 57 KB     |            |   0% [A[A[A[A
-
-
-
-
-python-flatbuffers-2 | 55 KB     |            |   0% [A[A[A[A[A
-
-
-
-
-
-numpy-1.23.5         | 10 KB     |            |   0% [A[A[A[A[A[A
-
-
-
-
-
-
-tensorflow-2.4.1     | 4 KB      |            |   0% [A[A[A[A[A[A[A
-
-
-
-
-
-
-
-_tflow_select-2.3.0  | 2 KB      |            |   0% [A[A[A[A[A[A[A[A
-
-hdf5-1.10.6          | 3.6 MB    |            |   0% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | 1          |   2% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | 3          |   3% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | 5          |   5% [A[A
-numpy-base-1.23.5    | 6.7 MB    |            |   0% [A
-
-hdf5-1.10.6          | 3.6 MB    | 6          |   7% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | #3         |  14% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 1          |   1% [A
-
-hdf5-1.10.6          | 3.6 MB    | #5         |  15% [A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-
-hdf5-1.10.6          | 3.6 MB    | ##4        |  24% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 2          |   3% [A
-
-hdf5-1.10.6          | 3.6 MB    | ##7        |  27% [A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-
-hdf5-1.10.6          | 3.6 MB    | ###2       |  33% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 2          |   3% [A
-
-
-
-opt_einsum-3.3.0     | 57 KB     | ##7        |  28% [A[A[A[A
-
-hdf5-1.10.6          | 3.6 MB    | ###6       |  36% [A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-numpy-base-1.23.5    | 6.7 MB    | 3          |   3% [A
-
-hdf5-1.10.6          | 3.6 MB    | ###9       |  39% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 4          |   4% [A
-
-hdf5-1.10.6          | 3.6 MB    | ####5      |  46% [A[A
-
-
-
-opt_einsum-3.3.0     | 57 KB     | #####5     |  56% [A[A[A[A
-
-hdf5-1.10.6          | 3.6 MB    | #####4     |  54% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | #####8     |  58% [A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-
-hdf5-1.10.6          | 3.6 MB    | ######1    |  62% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 5          |   5% [A
-
-
-h5py-2.10.0          | 948 KB    | 1          |   2% [A[A[A
-
-hdf5-1.10.6          | 3.6 MB    | #######    |  71% [A[A
-
-
-
-opt_einsum-3.3.0     | 57 KB     | ########## | 100% [A[A[A[A
-
-
-
-opt_einsum-3.3.0     | 57 KB     | ########## | 100% [A[A[A[A
-
-
-
-opt_einsum-3.3.0     | 57 KB     | ########## | 100% [A[A[A[A
-numpy-base-1.23.5    | 6.7 MB    | 6          |   6% [A
-
-
-h5py-2.10.0          | 948 KB    | 6          |   7% [A[A[A
-
-hdf5-1.10.6          | 3.6 MB    | #######5   |  75% [A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-
-
-h5py-2.10.0          | 948 KB    | #          |  10% [A[A[A
-
-hdf5-1.10.6          | 3.6 MB    | ########9  |  90% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | #########4 |  94% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 8          |   8% [A
-
-hdf5-1.10.6          | 3.6 MB    | #########8 |  98% [A[A
-
-hdf5-1.10.6          | 3.6 MB    | ########## | 100% [A[A
-numpy-base-1.23.5    | 6.7 MB    | 9          |   9% [A
-
-
-
-
-
-numpy-1.23.5         | 10 KB     | ########## | 100% [A[A[A[A[A[A
-
-
-
-
-
-numpy-1.23.5         | 10 KB     | ########## | 100% [A[A[A[A[A[A
-
-
-h5py-2.10.0          | 948 KB    | ##3        |  24% [A[A[A
-
-
-
-
-
-numpy-1.23.5         | 10 KB     | ########## | 100% [A[A[A[A[A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-
-
-
-
-python-flatbuffers-2 | 55 KB     | ##9        |  29% [A[A[A[A[A
-
-
-
-
-python-flatbuffers-2 | 55 KB     | ########## | 100% [A[A[A[A[A
-
-
-
-
-
-
-tensorflow-2.4.1     | 4 KB      | ########## | 100% [A[A[A[A[A[A[A
-
-
-
-
-
-
-tensorflow-2.4.1     | 4 KB      | ########## | 100% [A[A[A[A[A[A[A
-
-
-h5py-2.10.0          | 948 KB    | ##7        |  27% [A[A[A
-numpy-base-1.23.5    | 6.7 MB    | 9          |  10% [A
-
-
-
-
-
-
-tensorflow-2.4.1     | 4 KB      | ########## | 100% [A[A[A[A[A[A[A
-
-
-
-
-python-flatbuffers-2 | 55 KB     | ########## | 100% [A[A[A[A[A
-
-
-
-
-python-flatbuffers-2 | 55 KB     | ########## | 100% [A[A[A[A[A
-numpy-base-1.23.5    | 6.7 MB    | #1         |  11% [A
-
-
-h5py-2.10.0          | 948 KB    | ###7       |  37% [A[A[A
-
-hdf5-1.10.6          | 3.6 MB    | ########## | 100% [A[A
-
-
-h5py-2.10.0          | 948 KB    | #####      |  51% [A[A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-numpy-base-1.23.5    | 6.7 MB    | #1         |  12% [A
-
-
-
-
-
-
-
-_tflow_select-2.3.0  | 2 KB      | ########## | 100% [A[A[A[A[A[A[A[A
-
-
-
-
-
-
-
-_tflow_select-2.3.0  | 2 KB      | ########## | 100% [A[A[A[A[A[A[A[A
-
-
-h5py-2.10.0          | 948 KB    | #####7     |  57% [A[A[A
-
-
-
-
-
-
-
-_tflow_select-2.3.0  | 2 KB      | ########## | 100% [A[A[A[A[A[A[A[A
-numpy-base-1.23.5    | 6.7 MB    | #2         |  12% [A
-numpy-base-1.23.5    | 6.7 MB    | #2         |  13% [A
-
-
-h5py-2.10.0          | 948 KB    | ######9    |  69% [A[A[Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-numpy-base-1.23.5    | 6.7 MB    | #3         |  13% [A
-numpy-base-1.23.5    | 6.7 MB    | #3         |  14% [A
-numpy-base-1.23.5    | 6.7 MB    | #4         |  14% [A
-
-
-h5py-2.10.0          | 948 KB    | ########4  |  84% [A[A[A
-numpy-base-1.23.5    | 6.7 MB    | #4         |  15% [A
-
-
-h5py-2.10.0          | 948 KB    | #########9 | 100% [A[A[A
-
-
-h5py-2.10.0          | 948 KB    | ########## | 100% [A[A[A
-
-
-h5py-2.10.0          | 948 KB    | ########## | 100% [A[A[A
-numpy-base-1.23.5    | 6.7 MB    | #5         |  15% [A
-numpy-base-1.23.5    | 6.7 MB    | #5         |  16% [A
-numpy-base-1.23.5    | 6.7 MB    | #6         |  17% [A
-numpy-base-1.23.5    | 6.7 MB    | #7         |  17% [A
-numpy-base-1.23.5    | 6.7 MB    | #7         |  18% [A
-numpy-base-1.23.5    | 6.7 MB    | #8         |  18% [A
-numpy-base-1.23.5    | 6.7 MB    | #8         |  19% [A
-numpy-base-1.23.5    | 6.7 MB    | #9         |  19% [Atensorflow-base-2.4. | 89.0 MB   |            |   0% 
-numpy-base-1.23.5    | 6.7 MB    | #9         |  20% [A
-numpy-base-1.23.5    | 6.7 MB    | #9         |  20% [A
-numpy-base-1.23.5    | 6.7 MB    | ##         |  20% [Atensorflow-base-2.4. | 89.0 MB   |            |   0% tensorflow-base-2.4. | 89.0 MB   |            |   0% 
-numpy-base-1.23.5    | 6.7 MB    | ##         |  21% [A
-numpy-base-1.23.5    | 6.7 MB    | ##1        |  21% [A
-numpy-base-1.23.5    | 6.7 MB    | ##1        |  21% [A
-numpy-base-1.23.5    | 6.7 MB    | ##1        |  22% [A
-numpy-base-1.23.5    | 6.7 MB    | ##1        |  22% [A
-numpy-base-1.23.5    | 6.7 MB    | ##2        |  22% [A
-numpy-base-1.23.5    | 6.7 MB    | ##2        |  22% [A
-numpy-base-1.23.5    | 6.7 MB    | ##2        |  23% [A
-numpy-base-1.23.5    | 6.7 MB    | ##2        |  23% [Atensorflow-base-2.4. | 89.0 MB   |            |   1% 
-numpy-base-1.23.5    | 6.7 MB    | ##3        |  23% [A
-numpy-base-1.23.5    | 6.7 MB    | ##3        |  23% [Atensorflow-base-2.4. | 89.0 MB   |            |   1% 
-numpy-base-1.23.5    | 6.7 MB    | ##3        |  24% [A
-numpy-base-1.23.5    | 6.7 MB    | ##3        |  24% [A
-numpy-base-1.23.5    | 6.7 MB    | ##4        |  25% [A
-numpy-base-1.23.5    | 6.7 MB    | ##4        |  25% [A
-numpy-base-1.23.5    | 6.7 MB    | ##6        |  26% [A
-numpy-base-1.23.5    | 6.7 MB    | ##6        |  27% [A
-numpy-base-1.23.5    | 6.7 MB    | ##7        |  27% [A
-numpy-base-1.23.5    | 6.7 MB    | ##7        |  27% [A
-numpy-base-1.23.5    | 6.7 MB    | ##7        |  28% [A
-numpy-base-1.23.5    | 6.7 MB    | ##8        |  28% [A
-numpy-base-1.23.5    | 6.7 MB    | ##8        |  29% [A
-numpy-base-1.23.5    | 6.7 MB    | ##8        |  29% [Atensorflow-base-2.4. | 89.0 MB   |            |   1% 
-numpy-base-1.23.5    | 6.7 MB    | ##9        |  30% [A
-numpy-base-1.23.5    | 6.7 MB    | ##9        |  30% [A
-numpy-base-1.23.5    | 6.7 MB    | ###        |  30% [A
-numpy-base-1.23.5    | 6.7 MB    | ###        |  30% [A
-numpy-base-1.23.5    | 6.7 MB    | ###        |  31% [A
-numpy-base-1.23.5    | 6.7 MB    | ###1       |  31% [A
-numpy-base-1.23.5    | 6.7 MB    | ###1       |  32% [A
-numpy-base-1.23.5    | 6.7 MB    | ###2       |  32% [A
-numpy-base-1.23.5    | 6.7 MB    | ###2       |  32% [A
-numpy-base-1.23.5    | 6.7 MB    | ###2       |  33% [A
-numpy-base-1.23.5    | 6.7 MB    | ###2       |  33% [A
-numpy-base-1.23.5    | 6.7 MB    | ###3       |  33% [A
-numpy-base-1.23.5    | 6.7 MB    | ###3       |  34% [A
-numpy-base-1.23.5    | 6.7 MB    | ###3       |  34% [A
-numpy-base-1.23.5    | 6.7 MB    | ###3       |  34% [A
-numpy-base-1.23.5    | 6.7 MB    | ###4       |  34% [A
-numpy-base-1.23.5    | 6.7 MB    | ###4       |  35% [Atensorflow-base-2.4. | 89.0 MB   |            |   1% 
-numpy-base-1.23.5    | 6.7 MB    | ###5       |  35% [A
-numpy-base-1.23.5    | 6.7 MB    | ###5       |  36% [A
-numpy-base-1.23.5    | 6.7 MB    | ###6       |  36% [A
-numpy-base-1.23.5    | 6.7 MB    | ###6       |  37% [Atensorflow-base-2.4. | 89.0 MB   |            |   1% 
-numpy-base-1.23.5    | 6.7 MB    | ###6       |  37% [A
