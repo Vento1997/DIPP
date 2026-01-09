@@ -34,6 +34,8 @@ class DataProcess(object):
         # static map features
         for map in map_features:
             map_type = map.WhichOneof("feature_data")
+            if not isinstance(map_type, str):
+                continue
             map_id = map.id
             map = getattr(map, map_type)
 

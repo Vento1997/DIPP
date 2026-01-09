@@ -138,6 +138,11 @@ def open_loop_test():
                     # map
                     for vector in parsed_data.map_features:
                         vector_type = vector.WhichOneof("feature_data")
+                        
+                        # 添加此检查以防止 TypeError
+                        if vector_type is None:
+                            continue
+                            
                         vector = getattr(vector, vector_type)
                         polyline = map_process(vector, vector_type)
 
